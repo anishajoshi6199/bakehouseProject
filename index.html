@@ -33,12 +33,44 @@
           <li><a href="#">MENUS</a></li>
           <li><a href="#">ABOUT</a></li>
           <li><a href="#">CONTACT</a></li>
+          <button id="Login"><h2>Login</h2></button>
+          <button id="signUp"><h2>Sign Up</h2></button>
         </ul>
       </div>
     </navbar>
     <!-- hero -->
     <section>
-      <div class="hero"></div>
+      <div class="hero">
+        <div class="heroMain">
+          <h1 id="heroTxt">Login</h1>
+          <h2 id="heroInfo">Welcome Back</h2>
+          <label id="heroName">Username : </label><br />
+          <input
+            type="text"
+            placeholder="Enter Username"
+            name="username"
+            id="userName"
+            required
+          /><br />
+          <label id="heroPass">Password : </label><br />
+          <input
+            type="password"
+            placeholder="Enter Password"
+            name="password"
+            id="passWord"
+            required
+          /><br />
+
+          <div class="basicOpt">
+            <a id="basicRemember" href="#">Remember me</a>
+
+            <a id="basicPass" href="#">Forget Password?</a>
+          </div>
+          <div class="button">
+            <h4>Submit</h4>
+          </div>
+        <h5 id="account">Don't have account? <bold>Create new account</bold></h5>
+      </div>
     </section>
   </body>
 </html>

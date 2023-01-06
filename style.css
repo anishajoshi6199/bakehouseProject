@@ -12,6 +12,11 @@
 .logo {
   background-color: black;
 }
+#search {
+  text-align: center;
+  height: 30px;
+  font-size: 15px;
+}
 .navLogo {
   display: flex;
   align-items: center;
@@ -49,7 +54,17 @@
 .nav-links ul li a {
   color: white;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.2rem;
+}
+#Login {
+  width: 6rem;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+}
+#signUp {
+  width: 8rem;
+  background-color: black;
+  color: #fff;
 }
 
 /* hero */
@@ -62,4 +77,89 @@
   background-size: cover;
   position: relative;
   overflow: hidden;
+}
+.heroMain {
+  background-color: #fff;
+  padding-top: 2rem;
+  opacity: 60%;
+  height: 35rem;
+  width: 30rem;
+  padding-bottom: 2rem;
+  margin-left: 30rem;
+  margin-top: 3rem;
+}
+#heroTxt {
+  background-color: black;
+  color: #fff;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+#heroInfo {
+  text-align: center;
+  color: black;
+  font-size: 2rem;
+}
+#heroName {
+  text-align: left;
+}
+#heroName {
+  font-size: 1.5rem;
+  color: black;
+  padding-left: 3rem;
+}
+#userName {
+  margin-left: 3rem;
+  width: 23rem;
+  height: 2.5rem;
+  text-align: center;
+}
+#heroPass {
+  font-size: 1.5rem;
+  color: black;
+  padding-left: 3rem;
+}
+#passWord {
+  margin-left: 3rem;
+  width: 23rem;
+  height: 2.5rem;
+  text-align: center;
+}
+.basicOpt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 3rem;
+  padding-top: 1rem;
+  padding-right: 4rem;
+}
+#Remember {
+  margin-left: 3rem;
+  margin-top: 1rem;
+}
+#basicRemember {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: black;
+}
+#basicPass {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: black;
+}
+.button > h4 {
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding-top: 10px;
+  margin-left: 3rem;
+  margin-top: 1rem;
+  width: 23rem;
+  height: 2.5rem;
+  border-radius: 3rem;
+}
+
+#account {
+  text-align: center;
+  padding-top: 3rem;
+  font-size: 1rem;
 }
