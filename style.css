@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Kalam:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courgette", cursive;
+  font-family: "Kalam", cursive;
+}
+
+/* logo */
+.logo {
+  background-color: black;
+}
+.navLogo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navLogo > img {
+  width: 14rem;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+.navLogo > input {
+  margin-right: 1rem;
+}
+/* navbar */
+.navBar > ul > li {
+  color: azure;
+}
+.navBar > .navOpt {
+  display: flex;
+}
+
+.nav-links {
+  flex: 1;
+  text-align: right;
+  background-color: black;
+}
+
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 0.3rem 0.7rem;
+  position: relative;
+}
+
+.nav-links ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+/* hero */
+.hero {
+  min-height: 90vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5)),
+    url("./images/bg.jpeg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
