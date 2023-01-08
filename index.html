@@ -18,29 +18,31 @@
 
   <body>
     <!-- logo -->
-    <section class="logo">
-      <div class="navLogo">
-        <img src="./images/BAKEHOuSE.png" alt="img" />
-        <input id="search" type="text" placeholder="search" />
-      </div>
-    </section>
-    <!-- navbar -->
-    <navbar class="navBar">
-      <div class="nav-links" id="navLinks">
-        <ul>
-          <li><a href="#">HOME</a></li>
-          <li><a href="#">SHOP</a></li>
-          <li><a href="#">MENUS</a></li>
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#">CONTACT</a></li>
-          <button id="Login"><h2>Login</h2></button>
-          <button id="signUp"><h2>Sign Up</h2></button>
-        </ul>
-      </div>
-    </navbar>
-    <!-- hero -->
-    <section>
-      <div class="hero">
+    <section class="bake">
+      <section class="logo">
+        <div class="navLogo">
+          <img src="./images/BAKEHOuSE.png" alt="img" />
+          <input id="search" type="text" placeholder="search" />
+        </div>
+      </section>
+      <!-- navbar -->
+      <navbar class="navBar">
+        <div class="nav-links" id="navLinks">
+          <ul>
+            <li><a id="home" href="#">HOME</a></li>
+            <li><a href="#">SHOP</a></li>
+            <li><a href="#">MENUS</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">CONTACT</a></li>
+          </ul>
+          <div>
+            <button id="Login"><h2>Login</h2></button>
+            <button id="signUp"><h2>Sign Up</h2></button>
+          </div>
+        </div>
+      </navbar>
+      <!-- hero -->
+      <section>
         <div class="heroMain">
           <h1 id="heroTxt">Login</h1>
           <h2 id="heroInfo">Welcome Back</h2>
@@ -67,10 +69,14 @@
             <a id="basicPass" href="#">Forget Password?</a>
           </div>
           <div class="button">
-            <h4>Submit</h4>
+            <h4><a href="">Submit</a></h4>
+            <!-- <a href="#">Submit</a> -->
           </div>
-        <h5 id="account">Don't have account? <bold>Create new account</bold></h5>
-      </div>
+          <h5 id="account">
+            Don't have account? <a href=""><bold>Create new account</bold></a>
+          </h5>
+        </div>
+      </section>
     </section>
   </body>
 </html>
